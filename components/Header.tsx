@@ -19,9 +19,9 @@ const Header = (props: Props) => {
           scale: 1,
         }}
         transition={{
-          duration: 0.5,
+          duration: 1.5,
         }}
-        className="logo">
+        className="text-gray-300">
         DS
       </motion.div>
       <motion.div
@@ -36,11 +36,11 @@ const Header = (props: Props) => {
           scale: 1,
         }}
         transition={{
-          duration: 0.5,
+          duration: 1.5,
         }}
         className="flex items-center text-gray-300 cursor-pointer">
         <SocialIcon network="email" fgColor="gray" bgColor="transparent" />
-        <div className="uppercase hidden md:inline-flex text-sm text-gray-4">Get In Touch</div>
+        <div className="uppercase hidden md:inline-flex text-sm text-gray-300">Get In Touch</div>
       </motion.div>
     </header>
   );
