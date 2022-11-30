@@ -21,8 +21,8 @@ const Header = (props: Props) => {
         transition={{
           duration: 1.5,
         }}
-        className="text-gray-300">
-        DS
+        className="text-gray-300 text-sm">
+        D. S.
       </motion.div>
       <motion.div
         initial={{
