@@ -23,7 +23,7 @@ const skills = [
   'webpack',
 ];
 
-const Skils = (props: Props) => {
+const Skills = (props: Props) => {
   return (
     <motion.div
       initial={{
@@ -36,7 +36,7 @@ const Skils = (props: Props) => {
         duration: 1.5,
       }}
       className="relative flex flex-col text-center md:text-left md:flex-row max-w-[2000px] min-h-screen px-10 justify-center xl:space-y-0 mx-auto items-center overflow-hidden">
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">Skils</h3>
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">Skills</h3>
       <h3 className="absolute top-36 uppercase tracking3[3px] text-gray-500 text-sm">
         The main skills that I use in projects
       </h3>
@@ -50,4 +50,4 @@ const Skils = (props: Props) => {
   );
 };
 
-export default Skils;
+export default Skills;
